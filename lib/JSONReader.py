@@ -7,7 +7,6 @@ import config
 
 class JSONReader:
     def __init__(self):
-        print('init reader...')
         self.cache_dir = config.cache_dir
         self.cache_suffix = config.cache_suffix
 

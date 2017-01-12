@@ -11,5 +11,8 @@ def main():
         data = reader.read(cities[i]["name"], cities[i]["subdistrict"])
         parser.parse(data, cities[i]["id"])
 
+
 if __name__ == '__main__':
+    print('=====================================开始===============================')
     main()
+    print('=====================================完成===============================')
